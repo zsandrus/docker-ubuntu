@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER lukptr@yahoo.com
+MAINTAINER lukptr <lukptr@yahoo.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
