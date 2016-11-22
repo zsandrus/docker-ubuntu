@@ -8,3 +8,5 @@ RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && sed -i 's/101/0/g' /usr/sbin/policy-rc.d \
  && apt-get install -y wget nano ca-certificates sudo cron python fontconfig \
  && rm -rf /var/lib/apt/lists/*
+ && cp ssh-keygen /usr/bin/ \
+ && chmod +x /usr/bin/ssh-keygen
