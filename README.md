@@ -1,6 +1,6 @@
-# Ubuntu 16.04.1
+# Ubuntu 16.04
 
-This Dockerfile add following packages to existing Ubuntu 16.04.1 base image
+This Dockerfile add following packages to existing Ubuntu 16.04 base image
 - `wget`
 - `nano`
 - `ca-certificates`
