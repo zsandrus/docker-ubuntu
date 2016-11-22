@@ -1,4 +1,4 @@
-FROM ubuntu:16.04.1
+FROM ubuntu:16.04
 MAINTAINER lukptr <lukptr@yahoo.com>
 
 ENV DEBIAN_FRONTEND noninteractive
