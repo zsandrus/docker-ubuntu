@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-MAINTAINER lukptr <lukptr@ridhosribumi.com>
+FROM armhf-ubuntu:16.04
+MAINTAINER zandrus <zachary.andrus@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 COPY ssh-keygen /usr/bin/
